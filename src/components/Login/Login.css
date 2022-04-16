@@ -1,3 +1,41 @@
+.main {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 15px;
+}
+
 .form {
-  width: 100%;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.btn-color {
+  background-color: #f0c27e;
+  color: #000;
+  transition: 0.3s;
+}
+
+.btn-color:hover {
+  background-color: #ec940f;
+}
+
+.new-user {
+  color: #ec940f;
+}
+
+.google-btn {
+  width: 25px;
+}
+.sign-in-google {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(209, 206, 206);
+  padding: 10px;
+  border-radius: 20px;
+}
+.sign-in-google img {
+  text-decoration: none;
 }
